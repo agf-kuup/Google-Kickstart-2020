@@ -3,7 +3,7 @@
 My solutions from the rounds of [Google Kickstart 2020][1].
 
 # A bit more
-Recently I found a [github user very cool][2] that has one repository for each Google Codejam contest.
+Recently I found a [very cool github user][2] that has one repository for each Google Codejam contest.
 
 I want to do something like that with this repository, but with Google Kickstart.
 If someone reads this repo and considers it could be improved to be better understood, please send me a message to agf0710@gmail.com .
