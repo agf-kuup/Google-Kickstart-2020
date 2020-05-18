@@ -1,4 +1,4 @@
-# [Google Kickstart 2020](https://codingcompetitions.withgoogle.com/kickstart/archive/2020) ![Language](https://img.shields.io/badge/language-Python-blue) ![Progress](https://img.shields.io/badge/solved-3%2F8-yellow)
+# [Google Kickstart 2020](https://codingcompetitions.withgoogle.com/kickstart/archive/2020) ![Language](https://img.shields.io/badge/language-Python-blue) ![Progress](https://img.shields.io/badge/solved-6%2F12-yellow)
 # About
 My solutions from the rounds of [Google Kickstart 2020][1].
 
