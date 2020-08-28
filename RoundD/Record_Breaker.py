@@ -1,23 +1,23 @@
 t=int(input())
 
-def out(tc,ss):
-    print("Case #{}: {}".format(tc,ss))
+def output(test_case,solution):
+    print("Case #{}: {}".format(test_case,solution))
 
-def solve(T):
+def solve(number_case):
     days=int(input())
-    streak=list(map(int,input().split()))
-    sol=0
-    M=-1
+    visitors_per_day=list(map(int,input().split()))
+    solution=0
+    last_max=-1 # Max number of visitors from prev days.
     for i in range(days):
-        if streak[i]>M: 
+        if visitors_per_day[i]>last_max: 
             if i<days-1:
-                if streak[i]>streak[i+1]: 
-                    sol+=1
+                if visitors_per_day[i]>visitors_per_day[i+1]: 
+                    solution+=1
             else: 
-                sol+=1
-        if streak[i]>M:
-            M=streak[i]
-    out(T,sol)
+                solution+=1
+        if visitors_per_day[i]>last_max:
+            last_max=visitors_per_day[i]
+    output(number_case,solution)
     
 for tc in range(1,t+1):
     solve(tc)
